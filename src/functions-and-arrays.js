@@ -59,7 +59,7 @@ function doesWordExist(words2, word) {
         return null;
     }
     for(let i = 0 ; i < words2.length ; i ++){
-      if(words2.length[i] === word){
+      if(words2[i].length === word){
             return true;
         }
     }

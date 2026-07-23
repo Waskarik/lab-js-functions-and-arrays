@@ -1,7 +1,7 @@
 // Iteration 1 | Find the Maximum
-function maxOfTwoNumbers(x, y) {}
+function maxOfTwoNumbers(x, y) {
 return Math.max(x, y);
-
+}
 
 
 // Iteration 2 | Find the Longest Word

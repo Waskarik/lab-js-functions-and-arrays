@@ -7,10 +7,10 @@ return Math.max(x, y);
 // Iteration 2 | Find the Longest Word
 const words = ["mystery", "brother", "aviator", "crocodile", "pearl", "orchard", "crackpot"];
 
-function findLongestWord() {
+function findLongestWord(words) {
     let longerWordis =""
     for(let i = 0 ; i < words.length ; i++){
-        if(words.length[i] > longerWordis.length){
+        if(words[i].length > longerWordis.length){
             longerWordis  = words[i];
         }
     }
@@ -43,7 +43,7 @@ function averageNumbers() {
     for(let i = 0; i < numbers2.length ; i++){
         sum += numbers2[i];
     }
-    return sum - numbers2.length;}
+    return sum / numbers2.length;}
 
 
 
@@ -51,7 +51,7 @@ function averageNumbers() {
 // Iteration 5 | Find Elements
 const words2 = ["machine", "subset", "trouble", "starting", "matter", "eating", "truth", "disobedience"];
 
-function doesWordExist(words, word) {
+function doesWordExist(words2, word) {
     if(words2.length === 0){
         return null;
     }

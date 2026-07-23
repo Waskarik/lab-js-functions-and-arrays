@@ -7,7 +7,7 @@ return Math.max(x, y);
 // Iteration 2 | Find the Longest Word
 const words = ["mystery", "brother", "aviator", "crocodile", "pearl", "orchard", "crackpot"];
 
-function findLongestWord() {
+function findLongestWord(words) {
     let longerWord =""
     if(words.length === 0){
         return null;
